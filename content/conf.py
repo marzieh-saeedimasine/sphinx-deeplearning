@@ -13,14 +13,12 @@
 
 # -- Project information -----------------------------------------------------
 
-# FIXME: choose title
-project = "Your lesson name"
-# FIXME: insert correct author
-author = "The contributors"
+project = "Deep Learning in Materials Science"
+author = "Mimer AI Factory"
 copyright = f"2026, Mimer AI Factory, {author}"
 
 github_user = "mimer-ai"
-github_repo_name = ""  # auto-detected from dirname if blank
+github_repo_name = "sphinx-deeplearning"  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/"  # with leading and trailing slash
 

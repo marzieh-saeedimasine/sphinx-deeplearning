@@ -1,46 +1,57 @@
-# LESSON NAME
+# Deep Learning in Materials Science
 
-Intro
+This workshop provides a hands-on introduction to deep learning techniques and their applications in materials science. Over two days, you'll learn the fundamentals of deep neural networks, build practical models, and apply them to real materials discovery problems.
 
 :::{prereq}
 
-- FIXME
-- ...
-- ...
+- Basic understanding of machine learning and deep learning
+- Basic Python programming knowledge
+- Familiarity with Pandas, tensorflow
+
   :::
 
-```{csv-table}
-:delim: ;
-:widths: auto
+```{toctree}
+:caption: Preparation
+:maxdepth: 1
 
-20 min ; {doc}`filename`
+episode
 ```
 
 ```{toctree}
 :caption: The lesson
 :maxdepth: 1
 
-episode.md
+lesson1
+lesson2
 ```
 
 ```{toctree}
-:caption: Reference
+:caption: References
 :maxdepth: 1
 
 quick-reference
 guide
 ```
 
-## Learning outcomes
+## Workshop Overview
 
-FIXME
+This 2-day workshop covers:
 
-This material is for ...
+- **Day 1**: Convolutional Neural Networks for image classification (Steel defect detection)
+- **Day 2**: Advanced architectures and transfer learning for image classification
+- **Day3** Yolo for object detection and segmentation, how to make data set and label data
+- **Graph Neural Networks** for material structure analysis
 
-By the end of this module, learners should:
+## Learning Outcomes
 
-- ...
-- ...
+By the end of this workshop, you will be able to:
+
+- Understand the fundamentals of deep neural networks and deep learning
+- Build and train neural networks using TensorFlow/Keras
+- Apply deep learning to materials discovery and property prediction
+- Evaluate model performance and avoid common pitfalls
+- Work with real materials science datasets
+- Deploy models for production use
 
 ## See also
 
